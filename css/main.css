@@ -140,19 +140,19 @@ footer p {
 /************************          PHOTO           ***************************************/
 
 #description_01 {
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url(/img/moto_01/hd_01.jpg) no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url(../img/moto_01/hd_01.jpg) no-repeat center center;
 }
 
 #photo_01 {
-    background: url(/img/moto_01/hd_01.jpg) no-repeat center center;
+    background: url(../img/moto_01/hd_01.jpg) no-repeat center center;
 }
 
 #description_02 {
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url(/img/moto_02/hd_01.jpg) no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url(../img/moto_02/hd_01.jpg) no-repeat center center;
 }
 
 #photo_02 {
-    background: url(/img/moto_02/hd_01.jpg) no-repeat center center;
+    background: url(../img/moto_02/hd_01.jpg) no-repeat center center;
 }
 
 
