@@ -2,15 +2,38 @@
 
 /* Random BackGround */
 
+$(document).ready(function () {
 
-var imageArr = ["linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(../img/bg_01.jpg)", "linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(../img/bg_02.jpg)", "linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(../img/bg_03.jpg)"];
+    /******* Random BackGround *******/
 
-var x = Math.floor(Math.random() * imageArr.length);
+    function backGroundRandomImage() {
 
-var image = imageArr[x];
+        var imageArr = ["linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(../img/bg_01.jpg)", "linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(../img/bg_02.jpg)", "linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(../img/bg_03.jpg)"];
 
-$('body').css('background-image', image);
+        var x = Math.floor(Math.random() * imageArr.length);
+
+        var image = imageArr[x];
+
+        $('body').css('background-image', image);
+
+    }
 
 
+    /******* Slick Carousel *******/
 
+    function carousel() {
 
+        $('.carousel').slick({
+                dots: true,
+                infinite: true,
+                speed: 500,
+                fade: true,
+                cssEase: 'linear'
+            });
+        }
+
+    backGroundRandomImage();
+
+    carousel();
+
+});

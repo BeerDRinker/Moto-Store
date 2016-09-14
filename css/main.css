@@ -116,8 +116,18 @@ h4 {
     padding-bottom: 5px;
 }
 
-.photo {
+
+/*.photo {
     background-size: cover;
+}*/
+
+
+/********* Carousel *********/
+
+.carousel {
+    width: 50%;
+    height: 50vh;
+    margin-bottom: 90px;
 }
 
 
@@ -143,9 +153,10 @@ footer p {
     background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url(../img/moto_01/hd_01.jpg) no-repeat center center;
 }
 
-#photo_01 {
+
+/*#photo_01 {
     background: url(../img/moto_01/hd_01.jpg) no-repeat center center;
-}
+} */
 
 #description_02 {
     background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url(../img/moto_02/hd_01.jpg) no-repeat center center;
